@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>flexboxの課題！！</title>
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+
+  <body>
+    <header>
+        <h1>flexboxの課題！！</h1>
+    </header>
+
+    <main>
+        <h2>端にぴったりつける。</h2>
+        <div class="main1">
+            <img src="item.png" alt="画像です"> 
+            <img src="item.png" alt="画像です"> 
+            <img src="item.png" alt="画像です"> 
+            <img src="item.png" alt="画像です"> 
+        </div>
+        
+        <h2>真ん中寄せ</h2>
+        <div class="main2">
+            <img src="item.png" alt="画像です"> 
+            <img src="item.png" alt="画像です"> 
+            <img src="item.png" alt="画像です"> 
+            <img src="item.png" alt="画像です"> 
+        </div>
+        
+        <h2>水平に真ん中寄せ</h2>
+        <div class="main3">
+            <div class="main3-in">
+                <img src="item.png" alt="画像です"> 
+                <img src="item.png" alt="画像です"> 
+                <img src="item.png" alt="画像です"> 
+                <img src="item.png" alt="画像です"> 
+            </div>
+        </div>
+        
+        <h2>左寄せ</h2>
+        <div class="main4">
+            <div class="main4-in">
+                <img src="item.png" alt="画像です"> 
+                <img src="item.png" alt="画像です"> 
+                <img src="item.png" alt="画像です"> 
+                <img src="item.png" alt="画像です"> 
+            </div>
+        </div>
+        
+        <h2>右寄せ</h2>
+        <div class="main5">
+            <div class="main5-in">
+                <img src="item.png" alt="画像です"> 
+                <img src="item.png" alt="画像です"> 
+                <img src="item.png" alt="画像です"> 
+                <img src="item.png" alt="画像です"> 
+            </div>
+        </div>
+        
+        <h2>折り返す</h2>
+        <div class="main6">
+            <div class="main6-in">
+                <img src="item.png" alt="画像です"> 
+                <img src="item.png" alt="画像です"> 
+                <img src="item.png" alt="画像です"> 
+                <img src="item.png" alt="画像です"> 
+                <img src="item.png" alt="画像です"> 
+                <img src="item.png" alt="画像です"> 
+                <img src="item.png" alt="画像です"> 
+                <img src="item.png" alt="画像です"> 
+                <img src="item.png" alt="画像です"> 
+                <img src="item.png" alt="画像です"> 
+                <img src="item.png" alt="画像です"> 
+                <img src="item.png" alt="画像です"> 
+            </div>
+        </div>
+
+         
+        <h2>真ん中</h2>
+        <div class="main7">
+            <div class="main7-in">
+                <img src="item.png" alt="画像です"> 
+                <img src="item.png" alt="画像です"> 
+                <img src="item.png" alt="画像です"> 
+                <img src="item.png" alt="画像です"> 
+            </div>
+        </div>
+
+
+        <h2>よくあるレイアウトです</h2>
+        <div class="main8">
+            <div class="main8-wrapper">
+                <div class="main8-logo">
+                    <p>ロゴ</p>
+                </div>
+                <div class="main8-menu">
+                    <p>メニュー１</p>
+                    <p>メニュー１</p>
+                    <p>メニュー１</p>
+                    <p>メニュー１</p>
+                </div>
+            </div>
+        </div>
+
+
+        <h2>3つ並んで要素の真ん中に数字</h2>
+        <div class="main9">
+           <div class="main9-1">1</div>
+           <div class="main9-2">2</div>
+           <div class="main9-3">3</div>
+        </div>
+
+        <h2>問題10</h2>
+        <div class="main10">
+            <div class="main10-wrapper">
+
+                <div class="content">
+                    <div class="top">
+                          <p>馬！！</p>
+                    </div>
+                    <div class="acon">
+                        <p>アイコン</p>
+                        <p>アイコン</p>
+                        <p>アイコン</p>
+                    </div>
+                    <div class="article">
+                        <ul>
+                            <li>テキストテキストテキスト</li>
+                            <li>テキストテキストテキスト</li>
+                            <li>テキストテキストテキスト</li>
+                        </ul>
+                    </div>
+                    <div class="btn">
+                        <button>ボタン</button>
+
+                    </div>
+                </div>
+            
+
+           
+
+                <div class="content">
+                    <div class="top">
+                          <p>馬！！</p>
+                    </div>
+                    <div class="acon">
+                        <p>アイコン</p>
+                        <p>アイコン</p>
+                        <p>アイコン</p>
+                    </div>
+                    <div class="article">
+                        <ul>
+                            <li>テキストテキストテキスト</li>
+                            <li>テキストテキストテキスト</li>
+                            <li>テキストテキストテキスト</li>
+                        </ul>
+                    </div>
+                    <div class="btn">
+                        <button>ボタン</button>
+
+                    </div>
+                </div>
+               
+           
+
+                <div class="content">
+                    <div class="top">
+                          <p>馬！！</p>
+                    </div>
+                    <div class="acon">
+                        <p>アイコン</p>
+                        <p>アイコン</p>
+                        <p>アイコン</p>
+                    </div>
+                    <div class="article">
+                        <ul>
+                            <li>テキストテキストテキスト</li>
+                            <li>テキストテキストテキスト</li>
+                            <li>テキストテキストテキスト</li>
+                        </ul>
+                    </div>
+                    <div class="btn">
+                        <button>ボタン</button>
+
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+
+    </main>
+    
+
+    <footer>
+    </footer>
+
+  </body>
+  
+</html>
+
