@@ -1,0 +1,244 @@
+header{
+   display: flex;
+   justify-content: center;
+   color: brown;
+   font-size: 30px;
+}
+
+
+h2{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+/* 端につける */
+
+.main1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 真ん中寄せ */
+
+.main2 {
+    display: flex;
+    justify-content: center;
+}
+
+.main2 img{
+    padding: 0px 3px;
+}
+
+
+/* 水平に真ん中寄せ */
+
+.main3{
+    background-color: cyan;
+    height: 400px;
+}
+
+.main3-in{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+}
+
+.main3 img{
+    padding: 0px 3px;
+}
+
+/* 左寄せ */
+
+.main4{
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* 右寄せ */
+
+.main5{
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* 折り返す */
+
+.main6-in{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 50%;
+}
+
+.main6 img{
+    padding: 2px;
+}
+
+/* 真ん中 */
+
+.main7{
+    background-color: cyan;
+    height: 400px;
+}
+
+.main7-in{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+}
+
+.main7 img{
+    padding: 0px 3px;
+}
+
+/* よくあるレイアウトです */
+
+.main8{
+    height: 300px;
+    width: 80%;
+    background-color: darkblue;
+    margin: 0 auto;
+}
+
+.main8-logo{
+    width: 200px;
+    height: 200px;
+    background-color: darkcyan;
+    display: inline-block;
+    margin-right: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+
+.main8-menu p{
+    display: inline-block;
+    height: 100px;
+    width: 150px;
+    background-color: darkgoldenrod;
+}
+
+.main8-wrapper{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+}
+
+.main8-menu{
+    background-color: darkgreen;
+    width: 60%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.main8-menu p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 3つ並んで要素の真ん中に数字 */
+
+.main9{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.main9-1{
+    background-color: darkslateblue;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main9-2{
+    background-color: darkslateblue;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main9-3{
+    background-color: darkslateblue;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 問題10 */
+
+.main10-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content{
+    background-color: darkslateblue;
+    width: 27%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top{
+    background-color: floralwhite;
+    height: 30%;
+    width: 80%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.acon{
+    display: flex;
+    
+}
+
+.acon p{
+    display: inline-block;
+    padding: 2px 17px;
+    background-color: floralwhite;
+    margin: 12px 4px 12px 4px;
+    border-radius: 10px;
+    border: solid 3px black;
+}
+
+.article{
+    height: 45%;
+}
+
+.article ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    /* border: solid 2px black; */
+    padding-left: 0px;
+    font-size: 30px;
+    margin: 0px;
+    color: white;
+}
+
+.btn button{
+    padding: 20px 120px;
+    margin-bottom: 20px;
+    background-color: tomato;
+    color: white;
+}
